@@ -1,0 +1,1293 @@
+/* All Commom CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ol,
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Commom CSS End */
+
+/* Section Part Start */
+.navbar-toggler-icon {
+    color: #2B2B2D;
+    background-color: white;
+    font-size: 30px;
+    padding: 15px 15px;
+    border: 2px solid #E9E9E9;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #000;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: #F53E32;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.navbaricons {
+    display: flex;
+}
+
+.navbaricons i {
+    color: #2B2B2D;
+    margin-right: 10px;
+}
+
+.navbaricons p {
+    color: #000;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.navbar {
+    position: fixed;
+    padding: 20px 0;
+    width: 100%;
+    transition: .4s;
+}
+
+.navbar:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* sticky header part start  */
+.sticky_header {
+    background: teal;
+    animation: alamin 1s;
+    z-index: 111111;
+}
+
+@keyframes alamin {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+/* sticky header part end  */
+
+/* back to top part start  */
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: #F53E32;
+    font-size: 40px;
+}
+
+/* back to top part end  */
+
+/* Section Part End */
+
+
+
+/* Search Part Start */
+#searchPart {
+    padding: 90px 0 30px;
+}
+
+.search-Menu {
+    display: flex;
+}
+
+.search-menu2 input {
+    padding: 15px 210px 15px 15px;
+    border: 1px solid #64B496;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 65px;
+}
+
+.search-menu3 input {
+    padding: 15px 0px 15px 20px;
+    border: 1px solid #64B496;
+    margin-top: 20px;
+    border-left: none;
+    border-right: none;
+}
+
+.search-menu3 i {
+    position: absolute;
+    margin-top: 41px;
+    margin-left: -65px;
+}
+
+.search-menu3 input::placeholder {
+    color: #000;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.search-btn i {
+    position: absolute;
+    margin-top: -56px;
+    margin-left: 165px;
+    padding: 20px 20px;
+    background-color: #F53E32;
+    color: #fafafa;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: .4s;
+}
+
+.search-btn i:hover {
+    color: #F53E32;
+    background-color: #FFFF;
+    border: 1px solid #F53E32;
+}
+
+.add-to-cartPart {
+    display: flex;
+}
+
+.add-to-cartPart {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.add-to-cartPart i {
+    font-size: 18px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.add-to-cartPart a {
+    color: #000;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.add-to-cartPart a:hover {
+    color: #F53E32;
+}
+
+/* Search Part End */
+
+
+
+/* Top Header Part Start */
+#top-HeaderPart {
+    background: url(../css/images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.topheaderOverly {
+    padding: 200px 0 300px;
+    background-color: hwb(0 0% 100% / 0.0);
+}
+
+.top-headerItem span {
+    color: #F53E32;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #F53E32;
+    margin-right: 10px;
+}
+
+.top-headerItem h3 {
+    color: #212529;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.top-headerItem h2 {
+    color: #000000;
+    font-family: "Actor", serif;
+    font-size: 55px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.top-headerItem p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 30px;
+    line-height: 26px;
+    margin-right: 67px;
+    margin-bottom: 30px;
+}
+
+.top-headerItem a {
+    color: #FFFF;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #F53E32;
+    padding: 15px 40px;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+.top-headerItem a:hover {
+    color: #F53E32;
+    background-color: #FFFF;
+    border: 1px solid #F53E32;
+    border-radius: 8px;
+}
+
+/* Top Header Part End */
+
+
+
+/* header Part Start */
+#header-Part {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.headeritemPart {
+    padding: 23px 0;
+    width: 100%;
+    background-color: #F7F7F8;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.headeritemPart h3 {
+    color: #F53E32;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.headeritemPart h4 {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.headeritemPart h5 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.headeritemPart:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.headeritemPart a {
+    color: #F53E32;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header-img-part img {
+    border-radius: 6px;
+}
+
+.header-img-part h2 {
+    color: #FFFF;
+    font-family: "Poppins", serif;
+    font-size: 54px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -495px;
+}
+
+.header-img-part h3 {
+    color: #FFFF;
+    font-family: "Poppins", serif;
+    font-size: 19px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 97px;
+    margin-top: -493px;
+}
+
+.header-img-part h1 {
+    color: #FFFF;
+    font-family: "Poppins", serif;
+    font-size: 19px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 95px;
+    margin-top: -470px;
+}
+
+.header-img-part h4 {
+    color: #FFFF;
+    font-family: "Poppins", serif;
+    font-size: 19px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 172px;
+    margin-top: -96px;
+}
+
+.header-img-part a {
+    color: #FFFF;
+    font-family: "Poppins", serif;
+    font-size: 19px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: -288px;
+    margin-top: 456px;
+    padding: 10px 25px;
+    background-color: #F53E32;
+    color: #F7F7F8;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.header-img-part a:hover {
+    color: #F53E32;
+    background-color: #FFFF;
+    border: 1px solid #F53E32;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+/* header Part End */
+
+
+
+/* Product Part Start */
+#product-Part {
+    padding-bottom: 100px;
+}
+
+.productWrite-part {
+    padding-top: 20px;
+}
+
+.productWrite-part h3 {
+    color: #000000;
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.productWrite-part p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 15px;
+    margin: 0 369px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.product-categorie {
+    padding: 20px 20px;
+    width: 100%;
+    background-color: #F7F7F8;
+    border-radius: 5px;
+    border: 1px solid #E9E9E9;
+    display: flex;
+    transition: .4s;
+}
+
+.product-categorie p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+    transition: .4s;
+}
+
+.product-categorie a i {
+    color: #7A7A7A;
+    margin-left: 230px;
+    transition: .4s;
+}
+
+.product-categorie a i:hover {
+    color: #F53E32;
+}
+
+.product-categorie p:hover {
+    color: #F53E32;
+}
+
+.product-categorie:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.product-left-img p {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-top: -580px;
+    margin-left: 20px;
+}
+
+.product-left-img h3 {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    color: #F7E8AA;
+    margin-top: -530px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.product-left-img h4 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: -480px;
+    margin-left: 20px;
+}
+
+.product-left-img a {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 250px;
+    margin-left: -288px;
+    padding: 10px 15px;
+    background-color: #F53E32;
+    border-radius: 5px;
+    border: 1px solid #F53E32;
+    transition: .4s;
+}
+
+.product-left-img a:hover {
+    color: #F53E32;
+    background-color: #fff;
+}
+
+.product-item-part {
+    padding: 15px 10px;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #E9E9E9;
+}
+
+.product-item-part a i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    color: #F53E32;
+    text-align: center;
+    margin-top: -38px;
+    position: absolute;
+    margin-left: -20px;
+}
+
+.product-item-flex {
+    display: flex;
+    margin-left: 80px;
+}
+
+.product-item-part p {
+    color: hwb(0 47% 53% / 0.719);
+    font-family: "Poppins", serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-item-flex i {
+    color: #F5885F;
+}
+
+.product-item-part h3 {
+    color: #999;
+    font-family: "Poppins", serif;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.product-item-part h4 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.product-item-flex2 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.product-item-flex2 h3 {
+    color: #F53E32;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+.product-item-flex2 del {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.flexitem {
+    display: flex;
+    gap: 20px;
+}
+
+.left {
+    width: 300px;
+
+}
+
+.product-left-img {
+    width: 300px;
+}
+
+.product-left-img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Product Part End */
+
+
+
+/* Shop Now  Part Start */
+#shop-Now-Part {
+    margin-bottom: 100px;
+}
+
+.shop-Now-Item h2 {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 20px;
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shop-Now-Item h4 {
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 20px;
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shop-Now-Item span {
+    color: #F53E32;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: -52px;
+    margin-top: -4px;
+}
+
+.shop-Now-Item h3 {
+    color: #777777;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -112px;
+    margin-left: 72px;
+    position: absolute;
+}
+
+.shop-Now-Item a {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #F53E32;
+    padding: 10px 30px;
+    border: 1px solid #F53E32;
+    border-radius: 5px;
+    margin-top: 153px;
+    margin-left: -394px;
+    transition: .4s;
+}
+
+.shop-Now-Item a:hover {
+    color: #F53E32;
+    background-color: #FFFFFF;
+}
+
+/* Shop Now  Part End */
+
+
+
+/* Support Part Start */
+#support-Part {
+    padding-bottom: 100px;
+}
+
+.support-item {
+    padding: 30px 20px 30px;
+    width: 100%;
+    color: #F7F7F8;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    background-color: #F7F7F8;
+    transition: .4s;
+}
+
+.support-item i {
+    font-size: 40px;
+    color: black;
+}
+
+.support-item h3 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.support-item p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.support-item:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Support Part End */
+
+
+
+/* Organic Food Part Start */
+#organic-Food-Part {
+    padding-bottom: 100px;
+}
+
+.organic-img {
+    background: url(../css/images/Section.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.organic-overly {
+    padding: 160px 0;
+    background-color: hwb(0 0% 100% / 0);
+}
+
+.organic-Item {
+    padding: 25px;
+    width: 100%;
+    background-color: #E9CBBE;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.organic-Item h5 {
+    color: #F53E32;
+    font-family: "Poppins", serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.organic-Item h4 {
+    color: #212529;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left: 62px;
+}
+
+.organic-Item h2 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.organic-Item p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding-right: 75px;
+    line-height: 25px;
+}
+
+.organic-timmer {
+    margin-top: 25px;
+    padding: 0px 20px 15px;
+    background-color: #E9CBBE;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.organic-timmer-part h3 {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.organic-timmer-part h2 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.organic-timmer-part span {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 20px;
+}
+
+.organic-Item:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Organic Food Part End */
+
+
+
+/* Pizza Part Start */
+#pizza-part {
+    padding-bottom: 100px;
+}
+
+.pizzaPart img {
+    height: 100%;
+    width: 100%;
+}
+
+.pizzaPart h3 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 380px;
+}
+
+.pizzaPart h4 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -298px;
+    margin-left: 459px;
+}
+
+.pizzaPart p {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 505px;
+}
+
+.pizzaPart h2 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -243px;
+    margin-left: 563px;
+}
+
+.pizzaPart a {
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 281px;
+    margin-left: -149px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #F53E32;
+    border: 1px solid #F53E32;
+    transition: .4s;
+}
+
+.pizzaPart a:hover {
+    color: #F53E32;
+    background: #FFFFFF;
+}
+
+/* Pizza Part End */
+
+
+
+/* Review Part Start */
+#review-Part {
+    padding-bottom: 100px;
+}
+
+.review-Write-Part h2 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.review-Write-Part p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 369px;
+    line-height: 20px;
+}
+
+.Review-Item-Part {
+    padding: 60px;
+    background-color: #F7F7F8;
+    border: 1px solid #E9E9E9;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.Review-Item-Part p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.Review-Item-Part h3 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.Review-Item-Part h4 {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Review-Item-Part img {
+    position: absolute;
+    margin-top: -245px;
+    margin-left: -57px;
+}
+
+.review-img-item img {
+    margin-left: 125px;
+    margin-top: 0px;
+}
+
+.review-img-item2 img {
+    margin-top: -180px;
+    margin-left: -164px;
+}
+
+/* Review Part End */
+
+
+
+/* Letest News Part Start */
+#letest-news-Part {
+    padding-bottom: 100px;
+}
+
+.letest-news-item {
+    padding: 30px 25px 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #E9E9E9;
+    border-bottom: none;
+    margin-top: 80px;
+}
+
+.letest-news-item p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.letest-news-item h3 {
+    color: #2B2B2D;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.letest-news-item a {
+    color: #64B496;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.letest-date {
+    position: absolute;
+    padding: 20px 17px;
+    background-color: hwb(0 0% 100% / 0.582);
+    border-radius: 10px;
+    margin-top: -90px;
+    margin-left: 335px;
+}
+
+.letest-date p {
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.letest-date h5 {
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Letest News Part End */
+
+
+
+/* About  Part Start */
+#about-Part {
+    padding: 95px 0 10px;
+    background-color: #F7F7F8;
+    border-top: 1px solid #E9E9E9;
+    margin-bottom: 200px;
+}
+
+.about-item p {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    line-height: 25px;
+}
+
+.about-flex {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.about-flex i {
+    color: #F53E32;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.about-flex h4 {
+    color: #7A7A7A;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.about-menu-part h3 {
+    color: #000000;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+
+.about-menu-part ul li a {
+    color: #777777;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 0;
+    transition: .4s;
+}
+
+.about-menu-part ul li a:hover {
+    color: #F53E32;
+}
+
+.about-search-part {
+    margin-top: 32px;
+}
+
+.about-search-part h3 {
+    color: #000000;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-search-part input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.about-search-part a i {
+    color: #000000;
+    background-color: #FFFFFF;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 366px;
+    margin-top: -52px;
+}
+
+.about-icon-part {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #7A7A7A;
+}
+.about-icon-part i{
+    font-size: 20px;
+}
+.about-img{
+    margin-top: 25px;
+    display: flex;
+}
+.about-img img{
+    margin-right: 10px;
+}
+.dag{
+    margin-top: 80px;
+  border: 1px solid hwb(0 48% 52% / 0.214);
+}
+.dag-write{
+    margin-top: 20px;
+}
+.dag-write h3{
+    color: #000000;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.dag-write span{
+    color: #F53E32;
+}
+
+/* About  Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
