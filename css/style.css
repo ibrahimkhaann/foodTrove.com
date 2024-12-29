@@ -1174,7 +1174,19 @@ p {
 .dag-write span{
     color: #F53E32;
 }
+.add-flex{
+    display: flex;
+}
+/* .add-to-cartPart{
+    width: 20%;
+} */
+.organic-food-item-flex-part{
+    display: flex;
+}
+.organic-timmer-part{
+ width: 20%;
 
+}
 /* About  Part End */
 
 
